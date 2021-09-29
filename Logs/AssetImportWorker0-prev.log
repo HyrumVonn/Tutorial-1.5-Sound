@@ -15,11 +15,11 @@ C:/Users/uberh/Desktop/School Files/Hyrum/Fall 2021/DIG 3480 Computer as a Mediu
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52727
+63556
 Successfully changed project path to: C:/Users/uberh/Desktop/School Files/Hyrum/Fall 2021/DIG 3480 Computer as a Medium/Tutorial 1.5 Sound And Animation
 C:/Users/uberh/Desktop/School Files/Hyrum/Fall 2021/DIG 3480 Computer as a Medium/Tutorial 1.5 Sound And Animation
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 195.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 99.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.1.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.1.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.1.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005659 seconds.
+Registered in 0.003606 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 110.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 99.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.454 seconds
+- Completed reload, in  2.674 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2454ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (2675ms)
+		BeginReloadAssembly (139ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (999ms)
-			LoadAssemblies (108ms)
+		EndReloadAssembly (847ms)
+			LoadAssemblies (134ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (376ms)
+			SetupTypeCache (322ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (395ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (331ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (111ms)
-				BeforeProcessingInitializeOnLoad (31ms)
-				ProcessInitializeOnLoadAttributes (185ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (30ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010688 seconds.
+Registered in 0.010783 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 92.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 101.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.861 seconds
+- Completed reload, in  3.020 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2862ms)
-		BeginReloadAssembly (284ms)
+	ReloadAssembly (3021ms)
+		BeginReloadAssembly (328ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (2428ms)
-			LoadAssemblies (173ms)
+		EndReloadAssembly (2554ms)
+			LoadAssemblies (170ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (610ms)
+			SetupTypeCache (848ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (90ms)
-			SetupLoadedEditorAssemblies (1330ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (1173ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (92ms)
-				BeforeProcessingInitializeOnLoad (166ms)
-				ProcessInitializeOnLoadAttributes (1015ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (249ms)
+				ProcessInitializeOnLoadAttributes (769ms)
 				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (17ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.9 MB.
-System memory in use after: 94.0 MB.
+Unloading 2388 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.5 MB.
+System memory in use after: 104.7 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2528.
-Total: 5.097900 ms (FindLiveObjects: 0.464900 ms CreateObjectMapping: 0.116400 ms MarkObjects: 4.412900 ms  DeleteObjects: 0.099000 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2827.
+Total: 5.572800 ms (FindLiveObjects: 0.530600 ms CreateObjectMapping: 0.136700 ms MarkObjects: 4.804400 ms  DeleteObjects: 0.099100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,104 +131,80 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Sound Effects
-  artifactKey: Guid(ccbb13ad4a1530241a5255298666abb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound Effects using Guid(ccbb13ad4a1530241a5255298666abb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94f7310c655c1690825e4d2eb39b643') in 0.016955 seconds 
-  Import took 0.022003 seconds .
+  path: Assets/PlayerControls.inputactions
+  artifactKey: Guid(7641ee9c09c52374a950c03ddb063d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerControls.inputactions using Guid(7641ee9c09c52374a950c03ddb063d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3144bb84b3db9923b8c6ab0d45fa56') in 0.084949 seconds 
+  Import took 0.091961 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.649853 seconds.
-  path: Assets/Sound Effects/Blegh1.wav
-  artifactKey: Guid(b4dc39ffb311df646bf1a043bf4ead8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound Effects/Blegh1.wav using Guid(b4dc39ffb311df646bf1a043bf4ead8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0ea16c5903e4826db6a2440dee8318') in 0.303122 seconds 
-  Import took 0.310227 seconds .
+  Time since last request: 501.961599 seconds.
+  path: Assets/PlayerControls.inputactions
+  artifactKey: Guid(7641ee9c09c52374a950c03ddb063d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerControls.inputactions using Guid(7641ee9c09c52374a950c03ddb063d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761827d46d7e58b86dd92a1725177b73') in 0.012641 seconds 
+  Import took 0.020297 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Sound Effects/BleghWithEcho.wav
-  artifactKey: Guid(33838d48d7f3fa3439a140bcaac1acfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound Effects/BleghWithEcho.wav using Guid(33838d48d7f3fa3439a140bcaac1acfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40f39f4770a422b3e069ddb7e4cb583') in 0.024298 seconds 
-  Import took 0.029452 seconds .
+  Time since last request: 5.715220 seconds.
+  path: Assets/PlayerControls.inputactions
+  artifactKey: Guid(7641ee9c09c52374a950c03ddb063d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerControls.inputactions using Guid(7641ee9c09c52374a950c03ddb063d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58568cda27f672f6b3e31aaf4418997f') in 0.009851 seconds 
+  Import took 0.015883 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Sound Effects/BleghEmphaticProud.wav
-  artifactKey: Guid(90519ab72d3309f45b50653f1f226a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound Effects/BleghEmphaticProud.wav using Guid(90519ab72d3309f45b50653f1f226a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26635a1ee73aae5ca326c6eb455279ec') in 0.021089 seconds 
-  Import took 0.027078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 122.808933 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.045808 seconds 
-  Import took 0.053025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.728135 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(3d51b69a7ac628041bd20baa02cf92e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(3d51b69a7ac628041bd20baa02cf92e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f1627a4bad938170c5ad7d86f0d274') in 0.013182 seconds 
-  Import took 0.018634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.388837 seconds.
-  path: Assets/Scripts/Sound Tute Script.cs
-  artifactKey: Guid(628293677ddd96548a80c407b0be9bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Sound Tute Script.cs using Guid(628293677ddd96548a80c407b0be9bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6857db62c54cfd56707e08aaeb3a82f') in 0.034982 seconds 
-  Import took 0.040638 seconds .
+  Time since last request: 0.012231 seconds.
+  path: Assets/PlayerControls.inputactions
+  artifactKey: Guid(7641ee9c09c52374a950c03ddb063d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerControls.inputactions using Guid(7641ee9c09c52374a950c03ddb063d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58568cda27f672f6b3e31aaf4418997f') in 0.006921 seconds 
+  Import took 0.013379 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013291 seconds.
+Registered in 0.008512 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.065 seconds
+- Completed reload, in  2.159 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2066ms)
-		BeginReloadAssembly (211ms)
+	ReloadAssembly (2160ms)
+		BeginReloadAssembly (247ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
+			DisableScriptedObjects (26ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (1732ms)
-			LoadAssemblies (159ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (1770ms)
+			LoadAssemblies (162ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (626ms)
+			SetupTypeCache (627ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (79ms)
+			RebuildScriptCaches (87ms)
 			SetupLoadedEditorAssemblies (668ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (157ms)
-				ProcessInitializeOnLoadAttributes (476ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (484ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2082 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.5 MB.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2541.
-Total: 5.038500 ms (FindLiveObjects: 0.430500 ms CreateObjectMapping: 0.108200 ms MarkObjects: 4.461800 ms  DeleteObjects: 0.036000 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2831.
+Total: 5.086700 ms (FindLiveObjects: 0.517800 ms CreateObjectMapping: 0.138900 ms MarkObjects: 4.399400 ms  DeleteObjects: 0.029100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -241,122 +217,66 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 18.193978 seconds.
+  path: Assets/PlayerControls.cs
+  artifactKey: Guid(5f7708fa769b85742a6f61103742676c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerControls.cs using Guid(5f7708fa769b85742a6f61103742676c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a2490d73dfc51d77f134462c66e6db') in 0.018437 seconds 
+  Import took 0.026309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035127 seconds.
+  path: Assets/PlayerControls.cs
+  artifactKey: Guid(5f7708fa769b85742a6f61103742676c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerControls.cs using Guid(5f7708fa769b85742a6f61103742676c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a2490d73dfc51d77f134462c66e6db') in 0.006416 seconds 
+  Import took 0.012385 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010180 seconds.
+Registered in 0.014674 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.001 seconds
+- Completed reload, in  2.126 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2002ms)
-		BeginReloadAssembly (203ms)
+	ReloadAssembly (2128ms)
+		BeginReloadAssembly (253ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (1668ms)
-			LoadAssemblies (175ms)
+			CreateAndSetChildDomain (100ms)
+		EndReloadAssembly (1748ms)
+			LoadAssemblies (163ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (567ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (83ms)
-			SetupLoadedEditorAssemblies (652ms)
+			SetupTypeCache (593ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (697ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (153ms)
-				ProcessInitializeOnLoadAttributes (466ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (519ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.5 MB.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.5 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2543.
-Total: 5.159600 ms (FindLiveObjects: 0.456800 ms CreateObjectMapping: 0.213200 ms MarkObjects: 4.454900 ms  DeleteObjects: 0.032900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 68.138938 seconds.
-  path: Assets/Scripts/TuteSoundScript.cs
-  artifactKey: Guid(e257b9e690c016f40bbb960c0f3154ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TuteSoundScript.cs using Guid(e257b9e690c016f40bbb960c0f3154ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65897d52213af21fc4268549ca4b521') in 0.025737 seconds 
-  Import took 0.032545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003513 seconds.
-  path: Assets/Scripts/TuteSoundScript.cs
-  artifactKey: Guid(e257b9e690c016f40bbb960c0f3154ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TuteSoundScript.cs using Guid(e257b9e690c016f40bbb960c0f3154ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65897d52213af21fc4268549ca4b521') in 0.009504 seconds 
-  Import took 0.019952 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008720 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.045 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2045ms)
-		BeginReloadAssembly (213ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		EndReloadAssembly (1699ms)
-			LoadAssemblies (170ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (571ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (666ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (153ms)
-				ProcessInitializeOnLoadAttributes (475ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2082 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.5 MB.
-System memory in use after: 96.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2547.
-Total: 4.839300 ms (FindLiveObjects: 0.434500 ms CreateObjectMapping: 0.112700 ms MarkObjects: 4.256700 ms  DeleteObjects: 0.033400 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2834.
+Total: 5.786800 ms (FindLiveObjects: 0.791700 ms CreateObjectMapping: 0.408200 ms MarkObjects: 4.555800 ms  DeleteObjects: 0.029300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -371,344 +291,48 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012319 seconds.
+Registered in 0.013882 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.608 seconds
+- Completed reload, in  2.568 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4608ms)
-		BeginReloadAssembly (229ms)
+	ReloadAssembly (2568ms)
+		BeginReloadAssembly (203ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (4158ms)
-			LoadAssemblies (339ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (2225ms)
+			LoadAssemblies (216ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1244ms)
+			SetupTypeCache (1009ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (1929ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (706ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (258ms)
-				ProcessInitializeOnLoadAttributes (1625ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (23ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (521ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (19ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
-Script is not up to date after domain reload: guid(4075725b42343494dae837a8144df3b2) path("Packages/com.unity.inputsystem/InputSystem/Editor/PropertyDrawers/InputControlPathDrawer.cs") state(2)
-Script is not up to date after domain reload: guid(15eaf34440a14edf94d5a0a00cbded20) path("Packages/com.unity.inputsystem/InputSystem/Utilities/NumberHelpers.cs") state(2)
-Script is not up to date after domain reload: guid(8f99eea29fb7e4f7a9c7aad1730f329a) path("Packages/com.unity.inputsystem/InputSystem/Utilities/OneOrMore.cs") state(2)
-Script is not up to date after domain reload: guid(47e42d28cda46b34cb7f8804e6db4c25) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/BaseInputOverride.cs") state(2)
-Script is not up to date after domain reload: guid(62899f850307741f2a39c98a8b639597) path("Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/PlayerInput.cs") state(2)
-Script is not up to date after domain reload: guid(72251f49d44478b4c93462938d7ce4cf) path("Packages/com.unity.inputsystem/InputSystem/Controls/DoubleControl.cs") state(2)
-Script is not up to date after domain reload: guid(34e7ea3151ed73745b7924e453c67eca) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/NavigationModel.cs") state(2)
-Script is not up to date after domain reload: guid(864a08de8a08473ebf82029d80696449) path("Packages/com.unity.inputsystem/InputSystem/Devices/Keyboard.cs") state(2)
-Script is not up to date after domain reload: guid(6982a6ffcdbf47a6aa68fd4418622395) path("Packages/com.unity.inputsystem/InputSystem/Devices/Haptics/IDualMotorRumble.cs") state(2)
-Script is not up to date after domain reload: guid(644895dd25f14937a1d11481e2338925) path("Packages/com.unity.inputsystem/InputSystem/Devices/Gamepad.cs") state(2)
-Script is not up to date after domain reload: guid(b24da9e286b594ace8ec4dfd4a374780) path("Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/InputValue.cs") state(2)
-Script is not up to date after domain reload: guid(f5899dcacd4e3004eaa9107c97e75e09) path("Packages/com.unity.inputsystem/InputSystem/Controls/InputControlLayoutChange.cs") state(2)
-Script is not up to date after domain reload: guid(bb4d45fbf0aa84484b251242fdb21800) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Steam/SteamIGAConverter.cs") state(2)
-Script is not up to date after domain reload: guid(6f91aa063fcc645ea8061ce0ae4f6f2b) path("Packages/com.unity.inputsystem/InputSystem/Plugins/WebGL/WebGLJoystick.cs") state(2)
-Script is not up to date after domain reload: guid(0a3e3635b85e2124b9b3147aef1cdc32) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XInput/XInputControllerWindows.cs") state(2)
-Script is not up to date after domain reload: guid(a10a64abdfd8f6340a5b6b54bf28812a) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/QueryCanRunInBackground.cs") state(2)
-Script is not up to date after domain reload: guid(a1284e66e3be9424db2c22a37b5a3cf0) path("Packages/com.unity.inputsystem/InputSystem/Devices/InputDeviceBuilder.cs") state(2)
-Script is not up to date after domain reload: guid(76d591911f4ae4f62953b13f6ff50429) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/InputActionTreeViewItems.cs") state(2)
-Script is not up to date after domain reload: guid(2158c2dfcbb94a3092caa77d698d5010) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/InputDeviceCommand.cs") state(2)
-Script is not up to date after domain reload: guid(6633b33d60f14b81927d89a4b06c8a1f) path("Packages/com.unity.inputsystem/InputSystem/State/InputStateBuffers.cs") state(2)
-Script is not up to date after domain reload: guid(6e6d0cbdd012f434392878fdc293f974) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/QueryEnabledStateCommand.cs") state(2)
-Script is not up to date after domain reload: guid(7c6a2891083312645a7be416176261c1) path("Packages/com.unity.inputsystem/InputSystem/Utilities/CSharpCodeHelpers.cs") state(2)
-Script is not up to date after domain reload: guid(760fac1b814a4d99a4fc534934e4dc99) path("Packages/com.unity.inputsystem/InputSystem/Utilities/MemoryHelpers.cs") state(2)
-Script is not up to date after domain reload: guid(ae42a3986cf84fe2aa1df4aa984dd806) path("Packages/com.unity.inputsystem/InputSystem/Plugins/HID/HIDDescriptorWindow.cs") state(2)
-Script is not up to date after domain reload: guid(98a0df93c82e4369b500b62affa160db) path("Packages/com.unity.inputsystem/InputSystem/Utilities/InlinedArray.cs") state(2)
-Script is not up to date after domain reload: guid(9e082355c53c54d19a09c1d4f7629360) path("Packages/com.unity.inputsystem/InputSystem/Utilities/JsonParser.cs") state(2)
-Script is not up to date after domain reload: guid(aa489f950f62d2948a1d96092e5a708a) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/UISupport.cs") state(2)
-Script is not up to date after domain reload: guid(6ae082cf4f6634e9d8cdd8526dd816a3) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/NormalizeVector2Processor.cs") state(2)
-Script is not up to date after domain reload: guid(86b230bdbb8ce487882861a17e6d2bde) path("Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/PlayerJoinBehavior.cs") state(2)
-Script is not up to date after domain reload: guid(d9ce7842660d4bf89a86f378ecffb8f1) path("Packages/com.unity.inputsystem/InputSystem/Events/StateEvent.cs") state(2)
-Script is not up to date after domain reload: guid(72dd2bf74735a46be8891fde502f792c) path("Packages/com.unity.inputsystem/InputSystem/Editor/Settings/EditorPlayerSettingHelpers.cs") state(2)
-Script is not up to date after domain reload: guid(2fe2cf22711ac4db3b094a955603f8bd) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/AdvancedDropdown/CallbackDataSource.cs") state(2)
-Script is not up to date after domain reload: guid(ba025c1c816ba7c42a1d28f1cefb9c66) path("Packages/com.unity.inputsystem/InputSystem/IInputDiagnostics.cs") state(2)
-Script is not up to date after domain reload: guid(7ae2dc3fc1c44ea59667819ea1d2e0c5) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XInput/XInputController.cs") state(2)
-Script is not up to date after domain reload: guid(33c4f889206d84e84b124cc6f7367963) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Users/InputUserPairingOptions.cs") state(2)
-Script is not up to date after domain reload: guid(8404be70184654265930450def6a9037) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetImporter/InputActionImporter.cs") state(2)
-Script is not up to date after domain reload: guid(76765a8c5cba74c0abc5ab4afd8266e2) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Users/InputUserAccountHandle.cs") state(2)
-Script is not up to date after domain reload: guid(b5256e0d1ebecc84d98a4001ab63d5b8) path("Packages/com.unity.inputsystem/InputSystem/Controls/InputControlLayoutAttribute.cs") state(2)
-Script is not up to date after domain reload: guid(1659bf437d849824999b2b9ae9e1518b) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/QuerySamplingFrequencyCommand.cs") state(2)
-Script is not up to date after domain reload: guid(0fb454a124e8649bb9326261b1739032) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownDataSource.cs") state(2)
-Script is not up to date after domain reload: guid(bb7aebed4ffd404da3399f60b272c7ee) path("Packages/com.unity.inputsystem/InputSystem/Devices/IInputUpdateCallbackReceiver.cs") state(2)
-Script is not up to date after domain reload: guid(6109a857ac56b4017b44b06a9de0f827) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownGUI.cs") state(2)
-Script is not up to date after domain reload: guid(caf772fd9b5b4840b7b0014d0616290d) path("Packages/com.unity.inputsystem/InputSystem/Events/InputEventPtr.cs") state(2)
-Script is not up to date after domain reload: guid(dbce6ac3ce95e4e28af8b2212171619a) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/CompensateDirectionProcessor.cs") state(2)
-Script is not up to date after domain reload: guid(61fdc882d66f0f34d90450c001c0078e) path("Packages/com.unity.inputsystem/InputSystem/Actions/Composites/AxisComposite.cs") state(2)
-Script is not up to date after domain reload: guid(8806f46699a44c39a6a66c5d07772871) path("Packages/com.unity.inputsystem/InputSystem/Plugins/HID/HID.cs") state(2)
-Script is not up to date after domain reload: guid(60f36b88774fb4ed685661de123d7449) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/TreeViewHelpers.cs") state(2)
-Script is not up to date after domain reload: guid(ade00164ed474391ba591b362f77149f) path("Packages/com.unity.inputsystem/InputSystem/Devices/Touchscreen.cs") state(2)
-Script is not up to date after domain reload: guid(5c6284fecb53e48ee832bc14c64be6fb) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/QueryPairedUserAccountCommand.cs") state(2)
-Script is not up to date after domain reload: guid(bd166cb4f7947a8498e7ad07a9c04294) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionRebindingExtensions.cs") state(2)
-Script is not up to date after domain reload: guid(c46ed0dd23ba548fd87436e8c89334e9) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownWindow.cs") state(2)
-Script is not up to date after domain reload: guid(8b5bc678fe5c44624a0f00e148fc2670) path("Packages/com.unity.inputsystem/InputSystem/Devices/ITextInputReceiver.cs") state(2)
-Script is not up to date after domain reload: guid(0c8442e8094ce974598eacc0302ddabb) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Android/AndroidSupport.cs") state(2)
-Script is not up to date after domain reload: guid(5a2515c58b39ea24c8154ebc84f7c157) path("Packages/com.unity.inputsystem/InputSystem/Controls/InputControlLayout.cs") state(2)
-Script is not up to date after domain reload: guid(3f04ed13d477436fa6a48ff5d0d46d8c) path("Packages/com.unity.inputsystem/InputSystem/Utilities/Substring.cs") state(2)
-Script is not up to date after domain reload: guid(decf522e52f74f9e80b4dc87986cca70) path("Packages/com.unity.inputsystem/InputSystem/InputUpdateType.cs") state(2)
-Script is not up to date after domain reload: guid(d806525c0444400588f5a7800297b7b5) path("Packages/com.unity.inputsystem/InputSystem/Devices/Pointer.cs") state(2)
-Script is not up to date after domain reload: guid(eb55afc2c109f42f2af37941a8c9300e) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/InputActionEditorWindow.cs") state(2)
-Script is not up to date after domain reload: guid(929bef69d71fe4223b4148865a0a5e42) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/GenericXRDevice.cs") state(2)
-Script is not up to date after domain reload: guid(7eca76cf669745feb0c71655dbad352f) path("Packages/com.unity.inputsystem/InputSystem/Utilities/TypeHelpers.cs") state(2)
-Script is not up to date after domain reload: guid(df88ce51eaa14f2f8975023f7f45d2d9) path("Packages/com.unity.inputsystem/InputSystem/Plugins/DualShock/DualShockGamepad.cs") state(2)
-Script is not up to date after domain reload: guid(49207568c569440f97a5bfe8b4144a16) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputBinding.cs") state(2)
-Script is not up to date after domain reload: guid(ab2c7c4773181604f9b207518e96ca1b) path("Packages/com.unity.inputsystem/InputSystem/State/IInputStateChangeMonitor.cs") state(2)
-Script is not up to date after domain reload: guid(6247927155f224aa5a61c15611fcd34a) path("Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/PlayerInputManagerEditor.cs") state(2)
-Script is not up to date after domain reload: guid(c632b886b4d04e6b856720556b399ffe) path("Packages/com.unity.inputsystem/InputSystem/Events/DeltaStateEvent.cs") state(2)
-Script is not up to date after domain reload: guid(a3882f27ee264cbfaa87fbdceacfcea1) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/InputEventTreeView.cs") state(2)
-Script is not up to date after domain reload: guid(4e9c0b68df9234a0bad68ad7e0391330) path("Packages/com.unity.inputsystem/InputSystem/Actions/Composites/Vector2Composite.cs") state(2)
-Script is not up to date after domain reload: guid(96d7b220d8769944f9aca48b3218daaa) path("Packages/com.unity.inputsystem/Tests/IntegrationTests/IntegrationTests.cs") state(2)
-Script is not up to date after domain reload: guid(84e410cdded84dd3971c9dbe94605503) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/InvertProcessor.cs") state(2)
-Script is not up to date after domain reload: guid(6ef7b744d03d44f2a82c38ac2f25b21f) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/CompensateRotationProcessor.cs") state(2)
-Script is not up to date after domain reload: guid(74405005f3013c2498103a79211ba93b) path("Packages/com.unity.inputsystem/InputSystem/Plugins/OnScreen/OnScreenSupport.cs") state(2)
-Script is not up to date after domain reload: guid(6873ac51fc9d6dc4dbb6d9dc77a5eb49) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/SetIMECursorPositionCommand.cs") state(2)
-Script is not up to date after domain reload: guid(e78bab4d8055a47fd933966a032e34ef) path("Packages/com.unity.inputsystem/InputSystem/Plugins/WebGL/WebGLGamepad.cs") state(2)
-Script is not up to date after domain reload: guid(ce150b9c1acd40e0a087ca3f3257831d) path("Packages/com.unity.inputsystem/InputSystem/Controls/InputControlPath.cs") state(2)
-Script is not up to date after domain reload: guid(8a2cdc9fdde66bb49afa0763a7557ff9) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Devices/OpenVR.cs") state(2)
-Script is not up to date after domain reload: guid(3da49be2d645b418c8ee308bb1a011c7) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Linux/LinuxSupport.cs") state(2)
-Script is not up to date after domain reload: guid(0c43a6876f1eb4fdf8b9dc2fee926776) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionProperty.cs") state(2)
-Script is not up to date after domain reload: guid(b0e29a3b2e6d01345abeaefb681b5f22) path("Packages/com.unity.inputsystem/InputSystem/Plugins/iOS/IOSGameController.cs") state(2)
-Script is not up to date after domain reload: guid(44353112a58c73347adde914844b7642) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Devices/GoogleVR.cs") state(2)
-Script is not up to date after domain reload: guid(7bef150b341c4d0dbab3db81ccf2ea81) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Steam/SteamSupport.cs") state(2)
-Script is not up to date after domain reload: guid(3cf42e49077e442fd8b9dc29c328d345) path("Packages/com.unity.inputsystem/InputSystem/Plugins/EnhancedTouch/EnhancedTouchSupport.cs") state(2)
-Script is not up to date after domain reload: guid(8d76c8b08c287594c9bf5d6c70fb8699) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/EnableDeviceCommand.cs") state(2)
-Script is not up to date after domain reload: guid(46f02abeca624ce68874afdbb77c9be0) path("Packages/com.unity.inputsystem/InputSystem/InputManager.cs") state(2)
-Script is not up to date after domain reload: guid(b00a605ae58d438baf0b80388b377972) path("Packages/com.unity.inputsystem/InputSystem/Controls/DpadControl.cs") state(2)
-Script is not up to date after domain reload: guid(d4a83784946017a4182f41a54d468481) path("Packages/com.unity.inputsystem/InputSystem/Devices/TrackedDevice.cs") state(2)
-Script is not up to date after domain reload: guid(7938861606c2845d19cf2e8a683ddba3) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/InvertVector3Processor.cs") state(2)
-Script is not up to date after domain reload: guid(2539bd7bca18c47e5a76ad1471ed6829) path("Packages/com.unity.inputsystem/InputSystem/Editor/PropertyDrawers/InputActionDrawer.cs") state(2)
-Script is not up to date after domain reload: guid(9e0ea5a9f932f6541962b1bf7934f7c3) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/EnableIMECompositionCommand.cs") state(2)
-Script is not up to date after domain reload: guid(af015677ecab4644b2382c6b37c2d95c) path("Packages/com.unity.inputsystem/InputSystem/Devices/InputDeviceChange.cs") state(2)
-Script is not up to date after domain reload: guid(f07d0a558a2d4f5c885936a3a1219008) path("Packages/com.unity.inputsystem/InputSystem/Controls/InputControlAttribute.cs") state(2)
-Script is not up to date after domain reload: guid(c79fd316c31a2402692c908865404608) path("Packages/com.unity.inputsystem/InputSystem/Controls/InputProcessor.cs") state(2)
-Script is not up to date after domain reload: guid(92ae37f8da4c25141a0c43e136275e46) path("Packages/com.unity.inputsystem/InputSystem/Plugins/OnScreen/OnScreenControl.cs") state(2)
-Script is not up to date after domain reload: guid(3afbef7bebf197d43b2352b971a4e15f) path("Packages/com.unity.inputsystem/InputSystem/Actions/Interactions/SlowTapInteraction.cs") state(2)
-Script is not up to date after domain reload: guid(073f4378d59364199ae19d0486842726) path("Packages/com.unity.inputsystem/Tests/TestFixture/InputTestRuntime.cs") state(2)
-Script is not up to date after domain reload: guid(681942113a3d6460a90af134a86edb78) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/ScaleVector3Processor.cs") state(2)
-Script is not up to date after domain reload: guid(68e8070c85d3c4544a527f58641b95c0) path("Packages/com.unity.inputsystem/InputSystem/AssemblyInfo.cs") state(2)
-Script is not up to date after domain reload: guid(550c4f473d16e49cf9f2e5c45be4490d) path("Packages/com.unity.inputsystem/InputSystem/Editor/PropertyDrawers/InputActionPropertyDrawer.cs") state(2)
-Script is not up to date after domain reload: guid(b21f8c6bf1fd94d1fb47907209b23367) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionType.cs") state(2)
-Script is not up to date after domain reload: guid(4313a2cc2049411789348ff4c952d89c) path("Packages/com.unity.inputsystem/InputSystem/Events/DeviceConfigurationEvent.cs") state(2)
-Script is not up to date after domain reload: guid(0dd5cd31dc0a44e8979c69bd6ef78686) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XInput/XInputSupport.cs") state(2)
-Script is not up to date after domain reload: guid(e1ad7c41319cc470d8ae996688c56e79) path("Packages/com.unity.inputsystem/InputSystem/Editor/PropertyDrawers/InputActionMapDrawer.cs") state(2)
-Script is not up to date after domain reload: guid(a9be5e04bc92741ccbe2c262bfaa517f) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/XRSupport.cs") state(2)
-Script is not up to date after domain reload: guid(9e1e1ebbe5ff04f03bf06ab5398454cf) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/InputActionEditorToolbar.cs") state(2)
-Script is not up to date after domain reload: guid(a625f902f77154d94aa57ae7872317ac) path("Packages/com.unity.inputsystem/InputSystem/IInputRuntime.cs") state(2)
-Script is not up to date after domain reload: guid(ff1bc3762d8741ff8f40d54da690efb1) path("Packages/com.unity.inputsystem/InputSystem/Utilities/FourCC.cs") state(2)
-Script is not up to date after domain reload: guid(a327bafe91572467f834d0435da166fb) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/StickDeadzoneProcessor.cs") state(2)
-Script is not up to date after domain reload: guid(c2339479d3a44fcb902e62c60f0a05af) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/IInputDeviceCommandInfo.cs") state(2)
-Script is not up to date after domain reload: guid(98406e6253bf4ccba72ff32ee85f5efa) path("Packages/com.unity.inputsystem/InputSystem/Devices/InputDeviceDescription.cs") state(2)
-Script is not up to date after domain reload: guid(6887ac562f464a329bc468158dbbf18f) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/ClampProcessor.cs") state(2)
-Script is not up to date after domain reload: guid(543792e79adf14478b4a00527bbefce1) path("Packages/com.unity.inputsystem/InputSystem/Controls/InputControlList.cs") state(2)
-Script is not up to date after domain reload: guid(e8df62e96c8524c2a89b7af40ee100e9) path("Packages/com.unity.inputsystem/InputSystem/Editor/Settings/InputSettingsProvider.cs") state(2)
-Script is not up to date after domain reload: guid(81128cc364d234170845119461c41970) path("Packages/com.unity.inputsystem/Tests/TestFixture/InputTestFixture.cs") state(2)
-Script is not up to date after domain reload: guid(aad56faafe6d9d3458c93a9e43759461) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/DisableDeviceCommand.cs") state(2)
-Script is not up to date after domain reload: guid(c2732a66825034f739cb072c49aa8990) path("Packages/com.unity.inputsystem/InputSystem/Actions/Interactions/MultiTapInteraction.cs") state(2)
-Script is not up to date after domain reload: guid(a85130d4e1e5b49878f8f51b2d4e0ded) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetImporter/InputActionCodeGenerator.cs") state(2)
-Script is not up to date after domain reload: guid(aa58e874cb4143ad884b8da2bb3f0d7a) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/InputControlTreeView.cs") state(2)
-Script is not up to date after domain reload: guid(caa587f0fb5099040bf6193f93daec5d) path("Packages/com.unity.inputsystem/InputSystem/Actions/Interactions/TapInteraction.cs") state(2)
-Script is not up to date after domain reload: guid(d472007a1b9243feb0043606b73288cd) path("Packages/com.unity.inputsystem/InputSystem/Devices/Mouse.cs") state(2)
-Script is not up to date after domain reload: guid(2c5f144140b7e48d48eb67d2decae17b) path("Packages/com.unity.inputsystem/InputSystem/InputExtensions.cs") state(2)
-Script is not up to date after domain reload: guid(a8d605b1e92964b5b94668b1511799ed) path("Packages/com.unity.inputsystem/InputSystem/State/InputState.cs") state(2)
-Script is not up to date after domain reload: guid(6d54531977ecb194c95e2d3aa7a5d72a) path("Packages/com.unity.inputsystem/InputSystem/Plugins/OnScreen/OnScreenButton.cs") state(2)
-Script is not up to date after domain reload: guid(d717b0e790ee146dd93d1be641984b6a) path("Packages/com.unity.inputsystem/InputSystem/Utilities/ExceptionHelpers.cs") state(2)
-Script is not up to date after domain reload: guid(2ab54adba6d259742a9022c514b04149) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Linux/SDLDeviceBuilder.cs") state(2)
-Script is not up to date after domain reload: guid(6bd8ebd167bb9d34cabf0b443f2d1aaa) path("Packages/com.unity.inputsystem/InputSystem/Actions/Interactions/HoldInteraction.cs") state(2)
-Script is not up to date after domain reload: guid(a8cfbe75f80984c1d9700ef41f6e2aeb) path("Packages/com.unity.inputsystem/InputSystem/Controls/InputControlExtensions.cs") state(2)
-Script is not up to date after domain reload: guid(d45ac8148fd4e264eb17df8586b09581) path("Packages/com.unity.inputsystem/InputSystem/Utilities/DynamicBitfield.cs") state(2)
-Script is not up to date after domain reload: guid(0ffbcc8a975d04f12967a085a10aeb7b) path("Packages/com.unity.inputsystem/InputSystem/Utilities/NameAndParameters.cs") state(2)
-Script is not up to date after domain reload: guid(15164829aab964eedaee6bac785c2c05) path("Packages/com.unity.inputsystem/InputSystem/Actions/Composites/ButtonWithOneModifier.cs") state(2)
-Script is not up to date after domain reload: guid(e31057ef324a04478bb4f7d469b3cdc0) path("Packages/com.unity.inputsystem/InputSystem/Plugins/EnhancedTouch/TouchSimulation.cs") state(2)
-Script is not up to date after domain reload: guid(78dcfd26eada049b0840e276bd029712) path("Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/PlayerInputEditor.cs") state(2)
-Script is not up to date after domain reload: guid(e4a1c749d40b4bf985d6b32d7db339bb) path("Packages/com.unity.inputsystem/InputSystem/Devices/Haptics/DualMotorRumble.cs") state(2)
-Script is not up to date after domain reload: guid(6bb362cb9a8353d44997049a67efe591) path("Packages/com.unity.inputsystem/InputSystem/Devices/InputDeviceMatcher.cs") state(2)
-Script is not up to date after domain reload: guid(d295e36fd3cd747f4a2123088241bd6a) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/InputActionPropertiesView.cs") state(2)
-Script is not up to date after domain reload: guid(c5b4f9c3390c14106a5006fd5d3d3cbe) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/InputActionAssetManager.cs") state(2)
-Script is not up to date after domain reload: guid(7182f63b24b00b44bbc83a3491c911e8) path("Packages/com.unity.inputsystem/InputSystem/Editor/EditorInputControlLayoutCache.cs") state(2)
-Script is not up to date after domain reload: guid(854faad156b245d4b50a15e233e9ad55) path("Packages/com.unity.inputsystem/InputSystem/Controls/StickControl.cs") state(2)
-Script is not up to date after domain reload: guid(f0800c72aa1894e478bb749990855f9e) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/InputSystemUIInputModuleEditor.cs") state(2)
-Script is not up to date after domain reload: guid(e04d6d4984c7d164096e271f20932849) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/PointerModel.cs") state(2)
-Script is not up to date after domain reload: guid(bdf4b325f88d407f9013b427a6b33c58) path("Packages/com.unity.inputsystem/InputSystem/State/IInputStateTypeInfo.cs") state(2)
-Script is not up to date after domain reload: guid(e5a64639c3eeaf5429cee8a5cb3c38d2) path("Packages/com.unity.inputsystem/InputSystem/Editor/InputDiagnostics.cs") state(2)
-Script is not up to date after domain reload: guid(d1166ae938ecb42adaf8c4530372fb2b) path("Packages/com.unity.inputsystem/InputSystem/Events/ActionEvent.cs") state(2)
-Script is not up to date after domain reload: guid(3e9857b4032c493aa79e61db86f9e09b) path("Packages/com.unity.inputsystem/InputSystem/Controls/QuaternionControl.cs") state(2)
-Script is not up to date after domain reload: guid(98590516d066443e58df0deff4a95b21) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/ScaleProcessor.cs") state(2)
-Script is not up to date after domain reload: guid(57f4c22a7e71744499d25ed776ef6cf2) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetImporter/InputActionAssetEditor.cs") state(2)
-Script is not up to date after domain reload: guid(9858d4c8055fd45539a2e86388f7c5ba) path("Packages/com.unity.inputsystem/InputSystem/Editor/DownloadableSample.cs") state(2)
-Script is not up to date after domain reload: guid(c77cd15ef9ca14d3e928d192049c276d) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionChange.cs") state(2)
-Script is not up to date after domain reload: guid(c7225419e3d446c5982afd5ba9cce319) path("Packages/com.unity.inputsystem/InputSystem/Plugins/DualShock/DualShockGamepadHID.cs") state(2)
-Script is not up to date after domain reload: guid(ccdc5c2ae66744782ab7e326c053ad0a) path("Packages/com.unity.inputsystem/InputSystem/State/InputStateHistory.cs") state(2)
-Script is not up to date after domain reload: guid(a653ebc2c02d545f581079cf4bbb0cd9) path("Packages/com.unity.inputsystem/InputSystem/InputAnalytics.cs") state(2)
-Script is not up to date after domain reload: guid(e072bc6a44a3a4944bb32165f753b9ca) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Users/InputUser.cs") state(2)
-Script is not up to date after domain reload: guid(50db2526021f1429e84687ad14aa0855) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetImporter/InputActionImporterEditor.cs") state(2)
-Script is not up to date after domain reload: guid(e14a578f61014fccab81ed0f1bc21948) path("Packages/com.unity.inputsystem/InputSystem/Devices/Joystick.cs") state(2)
-Script is not up to date after domain reload: guid(0e235e01f7e6408f87e899ac373c85d1) path("Packages/com.unity.inputsystem/InputSystem/Plugins/DualShock/IDualShockHaptics.cs") state(2)
-Script is not up to date after domain reload: guid(4b0617d4946754ab980342582b1f560c) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdown.cs") state(2)
-Script is not up to date after domain reload: guid(fc1515ab76e54f068e2f2207940fab32) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionReference.cs") state(2)
-Script is not up to date after domain reload: guid(cf624ae4ff5e44cebdcba54ae1ff380a) path("Packages/com.unity.inputsystem/InputSystem/Controls/CommonUsages.cs") state(2)
-Script is not up to date after domain reload: guid(4ff1587ed21f442578f1ad36c4779a95) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionTrace.cs") state(2)
-Script is not up to date after domain reload: guid(f1e8cf3dc2c11ed47a2666fcf0d3a938) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Haptics/BufferedRumble.cs") state(2)
-Script is not up to date after domain reload: guid(dda83392ceab4fddbb9f3c7dd5edde62) path("Packages/com.unity.inputsystem/InputSystem/Events/TextEvent.cs") state(2)
-Script is not up to date after domain reload: guid(83070f7befc0b4deeb2cfde76b5a9002) path("Packages/com.unity.inputsystem/InputSystem/Editor/ControlPicker/InputControlDropdownItem.cs") state(2)
-Script is not up to date after domain reload: guid(713b035f669b942adbd1cc05c4fb6e1d) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/InputActionTreeView.cs") state(2)
-Script is not up to date after domain reload: guid(3894aabfd6ab70245859fa873e1a6552) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/SetSamplingFrequencyCommand.cs") state(2)
-Script is not up to date after domain reload: guid(4ab0ce1980d384014be67a2d135ed92c) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/InvertVector2Processor.cs") state(2)
-Script is not up to date after domain reload: guid(250f0b2038f8466aaa09814a4b1c5f46) path("Packages/com.unity.inputsystem/InputSystem/Devices/InputDevice.cs") state(2)
-Script is not up to date after domain reload: guid(7d7a42e3bb8b4c0f877cbe19718a4103) path("Packages/com.unity.inputsystem/InputSystem/Controls/KeyControl.cs") state(2)
-Script is not up to date after domain reload: guid(da649da79e1b9455791f5ddd31355edc) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/NameAndParameterListView.cs") state(2)
-Script is not up to date after domain reload: guid(620180a2562c422893989c28645cef24) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/QueryKeyboardLayoutCommand.cs") state(2)
-Script is not up to date after domain reload: guid(e3da24ab555e0c04793b0618d387a2b5) path("Packages/com.unity.inputsystem/InputSystem/Controls/TouchPressControl.cs") state(2)
-Script is not up to date after domain reload: guid(ee46ea662a1d4d2397d0b3a45baf67ef) path("Packages/com.unity.inputsystem/InputSystem/Devices/Haptics/DualMotorRumbleCommand.cs") state(2)
-Script is not up to date after domain reload: guid(fa26399d579948dd90c6ff298cdb0570) path("Packages/com.unity.inputsystem/InputSystem/Plugins/DualShock/DualShockSupport.cs") state(2)
-Script is not up to date after domain reload: guid(640e1e705a694e56835bacff3d7f7b4b) path("Packages/com.unity.inputsystem/InputSystem/Utilities/InternedString.cs") state(2)
-Script is not up to date after domain reload: guid(bb83bbf668a324899963d1ea424c5ad0) path("Packages/com.unity.inputsystem/InputSystem/Utilities/DelegateHelpers.cs") state(2)
-Script is not up to date after domain reload: guid(e22caa7f1befe4d4db80921ba3cdabdb) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/SerializedPropertyHelpers.cs") state(2)
-Script is not up to date after domain reload: guid(fb0e54f1ead384cd191254077544faf0) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/ParameterListView.cs") state(2)
-Script is not up to date after domain reload: guid(1ab470181bfe4ba891e0d1584730fc4c) path("Packages/com.unity.inputsystem/InputSystem/Controls/DiscreteButtonControl.cs") state(2)
-Script is not up to date after domain reload: guid(ab9baa68d9998419ba6b1bd76b11b630) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Steam/SteamController.cs") state(2)
-Script is not up to date after domain reload: guid(6e444fe6609243258e0a7746c163373a) path("Packages/com.unity.inputsystem/InputSystem/Controls/AnyKeyControl.cs") state(2)
-Script is not up to date after domain reload: guid(6d671947d51444fb9b8a4bf96c16bfed) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/EditorHelpers.cs") state(2)
-Script is not up to date after domain reload: guid(8b78cdd0ba4454fd69b2be04e825d921) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/NormalizeVector3Processor.cs") state(2)
-Script is not up to date after domain reload: guid(2e3ecb5c3d351df489bd05ac1d820a6a) path("Packages/com.unity.inputsystem/InputSystem/Controls/TouchPhaseControl.cs") state(2)
-Script is not up to date after domain reload: guid(3ec5135f9c8612d42a83f87500580afa) path("Packages/com.unity.inputsystem/InputSystem/Utilities/TypeTable.cs") state(2)
-Script is not up to date after domain reload: guid(551b733126e34f71a7294051cf2bfc0b) path("Packages/com.unity.inputsystem/InputSystem/Controls/AxisControl.cs") state(2)
-Script is not up to date after domain reload: guid(96bf34fe183cd4ce986db61a6639cd5b) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/ScaleVector2Processor.cs") state(2)
-Script is not up to date after domain reload: guid(32ca74660a65e46c4b2bc0f3e3c327f4) path("Packages/com.unity.inputsystem/InputSystem/Editor/Settings/InputEditorUserSettings.cs") state(2)
-Script is not up to date after domain reload: guid(d618f7e3781548c28836f39ae65d95e1) path("Packages/com.unity.inputsystem/InputSystem/Controls/ButtonControl.cs") state(2)
-Script is not up to date after domain reload: guid(6e687839a3c5f7a4ea700f2967051b3d) path("Packages/com.unity.inputsystem/InputSystem/Utilities/Comparers.cs") state(2)
-Script is not up to date after domain reload: guid(20d24cdc563d241d8a6bbbb9e417d100) path("Packages/com.unity.inputsystem/InputSystem/Editor/Settings/InputSettingsBuildProvider.cs") state(2)
-Script is not up to date after domain reload: guid(179e4e4b8003406d97463b101f15eb8b) path("Packages/com.unity.inputsystem/InputSystem/Devices/Haptics/IHaptics.cs") state(2)
-Script is not up to date after domain reload: guid(caeab4c8826564dfda5e44a7e01a8de1) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/AdvancedDropdown/MultiLevelDataSource.cs") state(2)
-Script is not up to date after domain reload: guid(35b7608ac9ab8464280c16fa4adc02f1) path("Packages/com.unity.inputsystem/InputSystem/State/IInputStateCallbackReceiver.cs") state(2)
-Script is not up to date after domain reload: guid(326532c3044e949b696215102693a1a3) path("Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/PlayerNotifications.cs") state(2)
-Script is not up to date after domain reload: guid(595b51cc3a67d49dd9168092dc0f6eec) path("Packages/com.unity.inputsystem/InputSystem/NativeInputRuntime.cs") state(2)
-Script is not up to date after domain reload: guid(c46f07b5ed07e4e92aa78254188d3d10) path("Packages/com.unity.inputsystem/InputSystem/InputSettings.cs") state(2)
-Script is not up to date after domain reload: guid(87354c477cc09c441b957b3aae10d813) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionMap.cs") state(2)
-Script is not up to date after domain reload: guid(6261dd2a83757498188548c57e2492bf) path("Packages/com.unity.inputsystem/InputSystem/Plugins/EnhancedTouch/Touch.cs") state(2)
-Script is not up to date after domain reload: guid(3c197002ad4232e46b0c55f74469fa03) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Switch/SwitchProControllerHID.cs") state(2)
-Script is not up to date after domain reload: guid(39fa3d8997a24136984ca6e2c99902bc) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionAsset.cs") state(2)
-Script is not up to date after domain reload: guid(b0c637405fa4842cc92e389df8729bc8) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/RequestSyncCommand.cs") state(2)
-Script is not up to date after domain reload: guid(924d7617bcdc84f8ea1c0d0ce6466a30) path("Packages/com.unity.inputsystem/InputSystem/Editor/ControlPicker/InputControlPathEditor.cs") state(2)
-Script is not up to date after domain reload: guid(e35c175d4f60c4820a36054488cb5524) path("Packages/com.unity.inputsystem/InputSystem/Editor/ControlPicker/InputControlPicker.cs") state(2)
-Script is not up to date after domain reload: guid(6c784a1510a154625903484b84c8ddaf) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/QueryUserIdCommand.cs") state(2)
-Script is not up to date after domain reload: guid(2064cdc23a1f4ec2a5b9b345e46960ed) path("Packages/com.unity.inputsystem/InputSystem/Devices/Sensor.cs") state(2)
-Script is not up to date after domain reload: guid(07003ea62d4443a09691237b23f17ac6) path("Packages/com.unity.inputsystem/InputSystem/Utilities/ReadOnlyArray.cs") state(2)
-Script is not up to date after domain reload: guid(bd2cb6115f94b4c129408ea68717f9c3) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/StandaloneInputModuleEditor.cs") state(2)
-Script is not up to date after domain reload: guid(8d659406a304446c599b9ec454663c46) path("Packages/com.unity.inputsystem/InputSystem/Editor/Debugger/InputActionDebuggerWindow.cs") state(2)
-Script is not up to date after domain reload: guid(2f971d46c202b4b7a90865bf5600683f) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Steam/SteamHandle.cs") state(2)
-Script is not up to date after domain reload: guid(888687b767334731951f3f18ffef0b75) path("Packages/com.unity.inputsystem/InputSystem/Utilities/ArrayHelpers.cs") state(2)
-Script is not up to date after domain reload: guid(06c77ad4af684d2eab4294e0d51afccd) path("Packages/com.unity.inputsystem/InputSystem/Controls/Vector2Control.cs") state(2)
-Script is not up to date after domain reload: guid(674b72d5417404b9eac446749e3e2d5e) path("Packages/com.unity.inputsystem/Tests/TestFixture/AssemblyInfo.cs") state(2)
-Script is not up to date after domain reload: guid(f61b0e35037644f37b6ac81513577c50) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownState.cs") state(2)
-Script is not up to date after domain reload: guid(2ade21199e79d394ab34f4e6887f1c09) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Haptics/GetHapticCapabilitiesCommand.cs") state(2)
-Script is not up to date after domain reload: guid(c3f24f77c633a444893b75d39ae4fa3c) path("Packages/com.unity.inputsystem/InputSystem/Editor/Debugger/InputDebuggerWindow.cs") state(2)
-Script is not up to date after domain reload: guid(4f0b0cfb7c484e43823c1a038c97a5f3) path("Packages/com.unity.inputsystem/InputSystem/Plugins/HID/HIDSupport.cs") state(2)
-Script is not up to date after domain reload: guid(d2c401960c5dc624c8970b2bee0371dc) path("Packages/com.unity.inputsystem/InputSystem/Utilities/DisplayStringFormatAttribute.cs") state(2)
-Script is not up to date after domain reload: guid(12826de7f47b478428a9941b5fb5adcf) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputInteractionContext.cs") state(2)
-Script is not up to date after domain reload: guid(914fdb42cb964faf92803ee51a7279fd) path("Packages/com.unity.inputsystem/InputSystem/Controls/Vector3Control.cs") state(2)
-Script is not up to date after domain reload: guid(6efadb7e1c29b4055adbd232610a4179) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputBindingComposite.cs") state(2)
-Script is not up to date after domain reload: guid(cfe12f5319f74d9e8b0875e965ac280b) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputAction.cs") state(2)
-Script is not up to date after domain reload: guid(7ffe30fd9a2d64031a59c21418fb2067) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Steam/SteamControllerType.cs") state(2)
-Script is not up to date after domain reload: guid(f720cfe5a69dc41b28e4c0a6ac2054c5) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Users/InputUserSettings.cs") state(2)
-Script is not up to date after domain reload: guid(a99745fe0133ddf4b9a4d6c58af7795a) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Switch/SwitchSupportHID.cs") state(2)
-Script is not up to date after domain reload: guid(0e297b4219a224ba5bcb4f9293e26ea9) path("Packages/com.unity.inputsystem/InputSystem/Actions/IInputActionCollection.cs") state(2)
-Script is not up to date after domain reload: guid(bd4bfc3c0efb44494be7101204897b7e) path("Packages/com.unity.inputsystem/InputSystem/Plugins/WebGL/WebGLSupport.cs") state(2)
-Script is not up to date after domain reload: guid(b200cbcb815aa44418fe8ada8cb78696) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/InitiateUserAccountPairingCommand.cs") state(2)
-Script is not up to date after domain reload: guid(d0821e88149544e9b53290bf15b8d100) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/InputStateWindow.cs") state(2)
-Script is not up to date after domain reload: guid(afe3cda3e244f60419474164d6ba3b0b) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/TrackedDeviceRaycaster.cs") state(2)
-Script is not up to date after domain reload: guid(0e0c005ff24ec4cfb951eefa16239b9b) path("Packages/com.unity.inputsystem/InputSystem/Utilities/NamedValue.cs") state(2)
-Script is not up to date after domain reload: guid(01614664b831546d2ae94a42149d80ac) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/InputSystemUIInputModule.cs") state(2)
-Script is not up to date after domain reload: guid(9af5cfc54cf34eb1ac27c9c90a9a7440) path("Packages/com.unity.inputsystem/InputSystem/Events/DeviceRemoveEvent.cs") state(2)
-Script is not up to date after domain reload: guid(3d2dbd5e535742a18f979fdaa69e3627) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XInput/IXboxOneRumble.cs") state(2)
-Script is not up to date after domain reload: guid(15fa4fb6e47739e43b36a70fce024b6f) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Android/AndroidAxis.cs") state(2)
-Script is not up to date after domain reload: guid(ef73fbf6f536c4184845d789870911a3) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XInput/XboxGamepadMacOS.cs") state(2)
-Script is not up to date after domain reload: guid(7009ea2cce278c14d852537c8f40c8a0) path("Packages/com.unity.inputsystem/InputSystem/Controls/IntegerControl.cs") state(2)
-Script is not up to date after domain reload: guid(9231fc068a549684f8ece75b66d6095b) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Devices/WindowsMR.cs") state(2)
-Script is not up to date after domain reload: guid(db7a158b580fb4518ae82aa029a54892) path("Packages/com.unity.inputsystem/InputSystem/Editor/ControlPicker/InputControlPickerDropdown.cs") state(2)
-Script is not up to date after domain reload: guid(bca227b3a59246a197db2ff52b862072) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/ExtendedPointerEventData.cs") state(2)
-Script is not up to date after domain reload: guid(ce1664b057efc40759e0da41d54e3e4e) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Users/InputUserChange.cs") state(2)
-Script is not up to date after domain reload: guid(94995588a5664878be30498a8ace6ba2) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/NormalizeProcessor.cs") state(2)
-Script is not up to date after domain reload: guid(c2db5674bb583c0449389396f935abf8) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionPhase.cs") state(2)
-Script is not up to date after domain reload: guid(4eac2aa5bc9a4fc1b87308eec2acf8b1) path("Packages/com.unity.inputsystem/InputSystem/Devices/Pen.cs") state(2)
-Script is not up to date after domain reload: guid(ede17f8b7e9dfcf42b560545a8102eeb) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Android/AndroidKeyCode.cs") state(2)
-Script is not up to date after domain reload: guid(ef4e8c908ae24e438f4baea55d866f5e) path("Packages/com.unity.inputsystem/InputSystem/State/InputStateBlock.cs") state(2)
-Script is not up to date after domain reload: guid(fa7997ba71d7b476799fab3d063b7e6c) path("Packages/com.unity.inputsystem/InputSystem/Events/InputEventBuffer.cs") state(2)
-Script is not up to date after domain reload: guid(f018dacefe574045a76769f5f355f3b1) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/WarpMousePositionCommand.cs") state(2)
-Script is not up to date after domain reload: guid(dfa8add0e3ed349708aeadc8b8c1ad0f) path("Packages/com.unity.inputsystem/InputSystem/Editor/ControlPicker/InputControlPickerState.cs") state(2)
-Script is not up to date after domain reload: guid(5b23e3210ca74ea9ae4fe882b9bce278) path("Packages/com.unity.inputsystem/InputSystem/Events/InputEventTrace.cs") state(2)
-Script is not up to date after domain reload: guid(d8ce1fd8f845226439f6b4ee991c9f78) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/QueryDimensionsCommand.cs") state(2)
-Script is not up to date after domain reload: guid(b16c6f78230fa4964a222622d8aae332) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/MultiplayerEventSystem.cs") state(2)
-Script is not up to date after domain reload: guid(c2fadf230d1919748a9aa21d40f74619) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/TrackedPoseDriver.cs") state(2)
-Script is not up to date after domain reload: guid(bb39cf984021140a3adc2419327534a7) path("Packages/com.unity.inputsystem/InputSystem/Events/IMECompositionEvent.cs") state(2)
-Script is not up to date after domain reload: guid(e9d677f1681015749b15c436eec6d880) path("Packages/com.unity.inputsystem/InputSystem/Plugins/OnScreen/OnScreenStick.cs") state(2)
-Script is not up to date after domain reload: guid(e553fed0b97be3349aff36916eb6fefc) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Haptics/SendBufferedHapticsCommand.cs") state(2)
-Script is not up to date after domain reload: guid(9e37175fb5b321444aa88a861f93360a) path("Packages/com.unity.inputsystem/InputSystem/Actions/IInputInteraction.cs") state(2)
-Script is not up to date after domain reload: guid(802caa2f96f49470facf48de1e652f16) path("Packages/com.unity.inputsystem/InputSystem/Actions/Interactions/PressInteraction.cs") state(2)
-Script is not up to date after domain reload: guid(3c764fcc1188a6e489f8c305ff4077a6) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/QueryEditorWindowCoordinatesCommand.cs") state(2)
-Script is not up to date after domain reload: guid(fbe76c3f0e980e6468b895ac1133c20d) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputBindingCompositeContext.cs") state(2)
-Script is not up to date after domain reload: guid(ae31a855334ecf64f848ae8e0b4e5a24) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionSetupExtensions.cs") state(2)
-Script is not up to date after domain reload: guid(7c93968c9be74a1fa43a3dad5eed4cbd) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/InputActionSerializationHelpers.cs") state(2)
-Script is not up to date after domain reload: guid(62dcc18c42c2246bdaed7fe210b77118) path("Packages/com.unity.inputsystem/InputSystem/Actions/Composites/ButtonWithTwoModifiers.cs") state(2)
-Script is not up to date after domain reload: guid(92d6890c6702d4891a156d7d30cdbdcb) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputControlScheme.cs") state(2)
-Script is not up to date after domain reload: guid(a7c6472eb810ba445be34c69325e4fea) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Android/AndroidGameController.cs") state(2)
-Script is not up to date after domain reload: guid(87ce818774f4c544882b249f32619300) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/EditorWindowSpaceProcessor.cs") state(2)
-Script is not up to date after domain reload: guid(f06ed8c4023b8420784a262e45338aa3) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/XRLayoutBuilder.cs") state(2)
-Script is not up to date after domain reload: guid(793d3fce58f547d688fdc78bee75cd30) path("Packages/com.unity.inputsystem/InputSystem/Controls/TouchControl.cs") state(2)
-Script is not up to date after domain reload: guid(ba2c9cc57fa154716b6f077bf9c1c193) path("Packages/com.unity.inputsystem/InputSystem/Editor/PropertyDrawers/InputActionDrawerBase.cs") state(2)
-Script is not up to date after domain reload: guid(54ee1a1058dfd4e089fe94a8e880938e) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/GUIHelpers.cs") state(2)
-Script is not up to date after domain reload: guid(150936adb4fc13049a1001992b86c43e) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Devices/Oculus.cs") state(2)
-Script is not up to date after domain reload: guid(e1523c5607084617abb64b2ad9cb1f66) path("Packages/com.unity.inputsystem/InputSystem/InputSystem.cs") state(2)
-Script is not up to date after domain reload: guid(ea7d19a9cdd73486689f292cc9d38018) path("Packages/com.unity.inputsystem/InputSystem/Editor/Debugger/InputDeviceDebuggerWindow.cs") state(2)
-Script is not up to date after domain reload: guid(54b255b27c8247b4b51e8df1f30af3c9) path("Packages/com.unity.inputsystem/InputSystem/Utilities/StringHelpers.cs") state(2)
-Script is not up to date after domain reload: guid(90a43988da5cf85498b40180b9040a38) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/RequestResetCommand.cs") state(2)
-Script is not up to date after domain reload: guid(455d9bc907fb62d44a2195e53ff7c0b7) path("Packages/com.unity.inputsystem/InputSystem/Utilities/PrimitiveValue.cs") state(2)
-Script is not up to date after domain reload: guid(5cdce2bffd1e49bda08b3db54a031207) path("Packages/com.unity.inputsystem/InputSystem/InputSystemObject.cs") state(2)
-Script is not up to date after domain reload: guid(4f7d29e15c49c49499875a6a2378f2a4) path("Packages/com.unity.inputsystem/InputSystem/Editor/InputParameterEditor.cs") state(2)
-Script is not up to date after domain reload: guid(635124a90cfbdc64eb3e9c0fc6904aa5) path("Packages/com.unity.inputsystem/InputSystem/Plugins/iOS/iOSSupport.cs") state(2)
-Script is not up to date after domain reload: guid(84ed8f0fc9aae9347b3b0a962eeacf32) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputBindingResolver.cs") state(2)
-Script is not up to date after domain reload: guid(71f3c0e630f0148b496f565843b5b272) path("Packages/com.unity.inputsystem/InputSystem/Plugins/EnhancedTouch/Finger.cs") state(2)
-Script is not up to date after domain reload: guid(0049e966b9953774fa3d07808a5555a9) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Haptics/GetCurrentHapticStateCommand.cs") state(2)
-Script is not up to date after domain reload: guid(ca5a63bf867c240879f2eb2179771ffb) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionState.cs") state(2)
-Script is not up to date after domain reload: guid(d59a0dc8508f4cf1819f6ba99250cd8e) path("Packages/com.unity.inputsystem/InputSystem/Controls/InputControl.cs") state(2)
-Script is not up to date after domain reload: guid(a736049645e8c4781aedf679c2ee6be6) path("Packages/com.unity.inputsystem/InputSystem/Plugins/HID/HIDParser.cs") state(2)
-Script is not up to date after domain reload: guid(78260363757e4b02b9c6cc9949b4091a) path("Packages/com.unity.inputsystem/InputSystem/Events/InputEvent.cs") state(2)
-Script is not up to date after domain reload: guid(621567455fd1c4ceb811cc8a00b6a1a5) path("Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/PlayerInputManager.cs") state(2)
-Script is not up to date after domain reload: guid(02a54f9a4f584f5397cf3e9697372394) path("Packages/com.unity.inputsystem/InputSystem/Events/IInputEventTypeInfo.cs") state(2)
-Script is not up to date after domain reload: guid(5f84d6a1bd34ea6428fa1db0e9f459cb) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Haptics/SendHapticImpulseCommand.cs") state(2)
-Script is not up to date after domain reload: guid(b33f51f6a55e541e995b5f6a10498d65) path("Packages/com.unity.inputsystem/InputSystem/InputMetrics.cs") state(2)
-Script is not up to date after domain reload: guid(42a7c5e6c9bc849a3a9163e719422c50) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownItem.cs") state(2)
-Script is not up to date after domain reload: guid(153c0ac2dec541bc824175008b97615d) path("Packages/com.unity.inputsystem/InputSystem/Devices/Remote/RemoteInputPlayerConnection.cs") state(2)
-Script is not up to date after domain reload: guid(d8afcd24f0b647f4f9f8c539d613ee6d) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/InputBindingPropertiesView.cs") state(2)
-Script is not up to date after domain reload: guid(830105192d35a17469c56711468d1e8f) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Android/AndroidSensors.cs") state(2)
-Script is not up to date after domain reload: guid(f617c1bc34684f738c0d2cb4d0650f35) path("Packages/com.unity.inputsystem/InputSystem/Devices/Remote/InputRemoting.cs") state(2)
-Script is not up to date after domain reload: guid(4e49477f346c4f3a8c9e5fcdcde317ed) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/QueryKeyNameCommand.cs") state(2)
-Script is not up to date after domain reload: guid(110e42b335c6744e482ada733cbda674) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/AxisDeadzoneProcessor.cs") state(2)
-Script is not up to date after domain reload: guid(4cc0c6a7fa1c14a518fec64497f4937f) path("Packages/com.unity.inputsystem/InputSystem/Plugins/EnhancedTouch/TouchHistory.cs") state(2)
-Script is not up to date after domain reload: guid(060ae4265f580481f9bc2f2e7ab367ef) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/PropertiesViewBase.cs") state(2)
-Script is not up to date after domain reload: guid(425bde5d5c63e4c5d8d95b068a911236) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Steam/IStreamControllerAPI.cs") state(2)
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2082 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.5 MB.
-System memory in use after: 96.6 MB.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2550.
-Total: 5.609900 ms (FindLiveObjects: 0.456700 ms CreateObjectMapping: 0.106100 ms MarkObjects: 5.008900 ms  DeleteObjects: 0.036000 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2837.
+Total: 5.536000 ms (FindLiveObjects: 0.536500 ms CreateObjectMapping: 0.139200 ms MarkObjects: 4.820700 ms  DeleteObjects: 0.037400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -723,48 +347,541 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010572 seconds.
+Registered in 0.011385 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 83.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.010 seconds
+- Completed reload, in  2.020 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2010ms)
-		BeginReloadAssembly (552ms)
+	ReloadAssembly (2021ms)
+		BeginReloadAssembly (204ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (306ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (84ms)
-		EndReloadAssembly (1294ms)
-			LoadAssemblies (183ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1675ms)
+			LoadAssemblies (154ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (457ms)
+			SetupTypeCache (562ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (100ms)
-			SetupLoadedEditorAssemblies (379ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (678ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (84ms)
-				BeforeProcessingInitializeOnLoad (122ms)
-				ProcessInitializeOnLoadAttributes (146ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (500ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2378 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 106.0 MB.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.6 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2843.
-Total: 3.819200 ms (FindLiveObjects: 0.532500 ms CreateObjectMapping: 0.133200 ms MarkObjects: 3.125800 ms  DeleteObjects: 0.026300 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2840.
+Total: 5.258300 ms (FindLiveObjects: 0.502000 ms CreateObjectMapping: 0.141000 ms MarkObjects: 4.579100 ms  DeleteObjects: 0.034000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008016 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.216 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2217ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1893ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (591ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (841ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (656ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2843.
+Total: 5.668800 ms (FindLiveObjects: 0.549000 ms CreateObjectMapping: 0.400700 ms MarkObjects: 4.676100 ms  DeleteObjects: 0.041300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007863 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.070 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2071ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1743ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (568ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (698ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (504ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.4 MB.
+System memory in use after: 104.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2846.
+Total: 5.654100 ms (FindLiveObjects: 0.507900 ms CreateObjectMapping: 0.136900 ms MarkObjects: 4.970400 ms  DeleteObjects: 0.036500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010588 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.111 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2111ms)
+		BeginReloadAssembly (221ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1745ms)
+			LoadAssemblies (201ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (596ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (684ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (508ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.4 MB.
+System memory in use after: 104.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2849.
+Total: 5.351300 ms (FindLiveObjects: 0.510400 ms CreateObjectMapping: 0.139500 ms MarkObjects: 4.665800 ms  DeleteObjects: 0.033400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.8 MB.
+System memory in use after: 57.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2849.
+Total: 6.540200 ms (FindLiveObjects: 0.589200 ms CreateObjectMapping: 0.148700 ms MarkObjects: 5.750200 ms  DeleteObjects: 0.050100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4585.077398 seconds.
+  path: Assets/Sound Effects/Enchanted Festival Loop.wav
+  artifactKey: Guid(0cac7add2c410c84b9c2a324abc25cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Effects/Enchanted Festival Loop.wav using Guid(0cac7add2c410c84b9c2a324abc25cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671353b2ff4357a797107a6d335cd8c8') in 0.445864 seconds 
+  Import took 0.557781 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008087 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.854 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2855ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (2498ms)
+			LoadAssemblies (167ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1111ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (912ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (721ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.4 MB.
+System memory in use after: 107.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2861.
+Total: 5.118800 ms (FindLiveObjects: 0.520500 ms CreateObjectMapping: 0.139400 ms MarkObjects: 4.424100 ms  DeleteObjects: 0.033000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008666 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.430 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2431ms)
+		BeginReloadAssembly (466ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1768ms)
+			LoadAssemblies (462ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (586ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (703ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (509ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.4 MB.
+System memory in use after: 107.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2864.
+Total: 5.004500 ms (FindLiveObjects: 0.542800 ms CreateObjectMapping: 0.132800 ms MarkObjects: 4.291600 ms  DeleteObjects: 0.035100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 78.324602 seconds.
+  path: Assets/Sound Effects/MaiDyingAnimal.wav
+  artifactKey: Guid(2ad1b454bbc66264db722b7620370dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Effects/MaiDyingAnimal.wav using Guid(2ad1b454bbc66264db722b7620370dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61a478c82dab22f0c745cd0a80ff7cb') in 0.076933 seconds 
+  Import took 0.082407 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008653 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.946 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2947ms)
+		BeginReloadAssembly (721ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (53ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (175ms)
+		EndReloadAssembly (1866ms)
+			LoadAssemblies (483ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (593ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (788ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (512ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (40ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.3 MB.
+System memory in use after: 107.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2868.
+Total: 5.825200 ms (FindLiveObjects: 1.058600 ms CreateObjectMapping: 0.199700 ms MarkObjects: 4.530700 ms  DeleteObjects: 0.034500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 113.367745 seconds.
+  path: Assets/Sound Effects/GutPunchedHigh.wav
+  artifactKey: Guid(599c726f493fa6b46a1392635997da15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Effects/GutPunchedHigh.wav using Guid(599c726f493fa6b46a1392635997da15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bf89a1e7498ebc07d488e1bb7c15a3') in 0.104596 seconds 
+  Import took 0.112075 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008566 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.547 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2548ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (2226ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (707ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (771ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (209ms)
+				ProcessInitializeOnLoadAttributes (527ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.4 MB.
+System memory in use after: 107.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2872.
+Total: 5.854300 ms (FindLiveObjects: 0.510800 ms CreateObjectMapping: 0.137400 ms MarkObjects: 5.175100 ms  DeleteObjects: 0.029200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007957 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.723 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2724ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (2399ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (587ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (1346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (1159ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.4 MB.
+System memory in use after: 107.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2875.
+Total: 5.245800 ms (FindLiveObjects: 0.510600 ms CreateObjectMapping: 0.154400 ms MarkObjects: 4.544800 ms  DeleteObjects: 0.034000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

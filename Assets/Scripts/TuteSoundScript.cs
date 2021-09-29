@@ -11,16 +11,20 @@ public class TuteSoundScript : MonoBehaviour
 
     public AudioSource musicSource;
 
+    public Animator anim;
+
     public void OnPlay1(CallbackContext context)
     {
         if(context.ReadValueAsButton())
         {
             musicSource.clip = musicClipOne;
             musicSource.Play();
+            anim.Play("Walk");
         }
         else
         {
             musicSource.Stop();
+            anim.Play("Idle");
         }
     }
 
@@ -30,10 +34,12 @@ public class TuteSoundScript : MonoBehaviour
         {
             musicSource.clip = musicClipTwo;
             musicSource.Play();
+            anim.Play("Run");
         }
         else
         {
             musicSource.Stop();
+            anim.Play("Idle");
         }
     }
 
